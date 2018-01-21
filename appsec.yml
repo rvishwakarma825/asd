@@ -1,16 +1,7 @@
-version: 0.0
-
-
+--- 
+files: 
+  - 
+    destination: /var/www/html/
+    source: /index.html
 os: linux
-
-files:
-
- - source: /index.html
-
-   destination: /var/www/html/
-
-  
-
- #- source: /abc.txt
-
-   #destination: /home/ubuntu/
+version: 0.0
